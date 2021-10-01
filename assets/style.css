@@ -1,0 +1,38 @@
+.body1{
+  background-color:rgb(4, 153, 133);   
+}
+li:hover{
+    opacity: 0.5;
+}
+#about #contact #work{
+    background-color: black;
+    transition: background-color 0.5s ease;
+}
+#contactMe{
+    position:relative;
+    top: 80px;
+}
+#contact{
+    position: relative;
+    top:100px;
+}
+#work{
+    position: relative;
+    top:250px;
+}
+#images{
+    position: relative;
+    top:150px;
+}
+#portfolio:hover{
+    opacity: 0.5;
+}
+#code:hover{
+    opacity: 0.5;
+}
+#weatherapi:hover{
+    opacity: 0.5;
+}
+#gameSearch:hover{
+    opacity: 0.5;
+}
