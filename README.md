@@ -9,4 +9,5 @@ Provide a short description explaining the what, why, and how of your project. U
 Attached is a link to the deployed page for easy access. https://addonelson.github.io/Personal_Portfolio/
 
 ## Usage
+
 ![alt text](images/Personal_Portfolio.png)
