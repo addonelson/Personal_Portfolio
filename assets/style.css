@@ -1,5 +1,57 @@
+.banner{
+    display:flex;
+}
+.panel{
+    position: relative;
+    width: 200px;
+    height:100px;
+    font-size: 75px;
+    overflow: hidden;
+    background-color: #000000;
+    color: rgb(155, 6, 6);
+    display:grid;
+    place-items: center;
+    
+}
+.panel:hover {
+    transform: scale(2);
+    filter: hue-rotate(90deg);    
+}
+.panel::before {
+    position: absolute;
+    width: max-content;
+}
+.active, .collapsible:hover {
+    background-color: rgb(155, 6, 6);
+    color: black;
+    text-shadow: 2px 2px 2px white;
+  }
+.collapsible{
+      width:150px;
+      height: 100px;
+      background-color: black;
+      color: white;
+      position: relative;
+      right: 250px;
+      font-size: 25px;
+  }
+  
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color:black;
+    color:White;
+    position: relative;
+    bottom: 100px;
+    text-shadow: 2px 2px 2px rgb(155, 6, 6);
+    font-size: 25px;
+  }
+
+
+
 .body1{
-  background-color:rgb(4, 153, 133);   
+  background-color:black;   
 }
 li:hover{
     opacity: 0.5;
@@ -7,10 +59,6 @@ li:hover{
 #about #contact #work{
     background-color: black;
     transition: background-color 0.5s ease;
-}
-#contactMe{
-    position:relative;
-    top: 80px;
 }
 #contact{
     position: relative;
@@ -22,10 +70,11 @@ li:hover{
 }
 #images{
     position: relative;
-    top:150px;
+    top:40px;
 }
 #portfolio:hover{
     opacity: 0.5;
+    
 }
 #code:hover{
     opacity: 0.5;
